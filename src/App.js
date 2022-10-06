@@ -1,0 +1,22 @@
+import { createTheme, ThemeProvider } from "@mui/material";
+import LoginPage from "./LoginPage";
+
+const THEME = createTheme({
+  typography: {
+    "fontFamily": `"Exo", "Roboto", "Helvetica", "Arial", sans-serif`,
+    "fontSize": 14,
+    "fontWeightLight": 300,
+    "fontWeightRegular": 400,
+    "fontWeightMedium": 500
+  }
+});
+
+function App() {
+  return (
+    <ThemeProvider theme={THEME}>
+      <LoginPage />
+    </ThemeProvider>
+  );
+}
+
+export default App;
