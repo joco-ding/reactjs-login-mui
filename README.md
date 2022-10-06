@@ -1,6 +1,6 @@
 # React JS Halaman Login 
 
-Layout Halaman Login dengan MUI.com
+Layout Halaman Login yang Responsive dengan MUI.com
 
 ## Cara Install
 
