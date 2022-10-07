@@ -26,5 +26,4 @@ Video tutorial-nya bisa dilihat di [youtube](https://youtu.be/CEJmSeHXc6I). Jika
 https://mui.com/material-ui/getting-started/installation/
 
 #### Cara Install Modul mui.com
-    npm install @mui/material @emotion/react @emotion/styled --save
-    npm install @mui/icons-material --save
+    npm install @mui/material @emotion/react @emotion/styled @mui/icons-material --save
