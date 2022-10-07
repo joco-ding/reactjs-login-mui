@@ -3,7 +3,7 @@ import LoginPage from "./LoginPage";
 
 const THEME = createTheme({
   typography: {
-    "fontFamily": `"Exo", "Roboto", "Helvetica", "Arial", sans-serif`,
+    "fontFamily": `"Exo", "Helvetica", "Arial", sans-serif`,
     "fontSize": 14,
     "fontWeightLight": 300,
     "fontWeightRegular": 400,
