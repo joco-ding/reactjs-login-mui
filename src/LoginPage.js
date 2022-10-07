@@ -81,10 +81,10 @@ export default function LoginPage() {
                     </Typography>
                     <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 1 }}>
                         <FormControl fullWidth>
-                            <InputLabel htmlFor="filled-adornment-email">Email</InputLabel>
+                            <InputLabel htmlFor="email">Email</InputLabel>
                             <Input
                                 name='email'
-                                id="filled-adornment-email"
+                                id="email"
                                 type='email'
                                 endAdornment={
                                     <InputAdornment
@@ -95,10 +95,10 @@ export default function LoginPage() {
                             />
                         </FormControl>
                         <FormControl fullWidth sx={{ my: 2 }}>
-                            <InputLabel htmlFor="filled-adornment-password">Password</InputLabel>
+                            <InputLabel htmlFor="password">Password</InputLabel>
                             <Input
                                 name='password'
-                                id="filled-adornment-password"
+                                id="password"
                                 type='password'
                                 endAdornment={
                                     <InputAdornment
