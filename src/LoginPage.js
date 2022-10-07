@@ -31,7 +31,6 @@ export default function LoginPage() {
         console.log({
             email: data.get('email'),
             password: data.get('password'),
-            web: data.get('web'),
         });
     };
 
