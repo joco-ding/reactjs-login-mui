@@ -1,14 +1,5 @@
 import * as React from 'react';
-import Avatar from '@mui/material/Avatar';
-import Button from '@mui/material/Button';
-import CssBaseline from '@mui/material/CssBaseline';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Checkbox from '@mui/material/Checkbox';
-import Link from '@mui/material/Link';
-import Box from '@mui/material/Box';
-import Grid from '@mui/material/Grid';
-import Typography from '@mui/material/Typography';
-import { FormControl, Input, InputAdornment, InputLabel } from '@mui/material';
+import { Avatar, Box, Button, CssBaseline, FormControl, FormControlLabel, Grid, Input, InputAdornment, InputLabel, Link, Typography } from '@mui/material';
 import { CodeOutlined, Email, Key, VisibilityOff } from '@mui/icons-material';
 
 function Copyright(props) {
