@@ -2,19 +2,6 @@ import * as React from 'react';
 import { Avatar, Box, Button, Checkbox, CssBaseline, FormControl, FormControlLabel, Grid, Input, InputAdornment, InputLabel, Link, Typography } from '@mui/material';
 import { CodeOutlined, Email, Key, VisibilityOff } from '@mui/icons-material';
 
-function Copyright(props) {
-    return (
-        <Typography variant="body2" color="text.secondary" align="center" {...props}>
-            {'Copyright © '}
-            <Link color="inherit" href="https://jocodev.id/">
-                jocodev.id
-            </Link>{' '}
-            {new Date().getFullYear()}
-            {'.'}
-        </Typography>
-    );
-}
-
 export default function LoginPage() {
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -124,7 +111,14 @@ export default function LoginPage() {
                                 </Link>
                             </Grid>
                         </Grid>
-                        <Copyright sx={{ mt: 5 }} />
+                        <Typography variant="body2" sx={{ mt: 5 }} color="text.secondary" align="center">
+                          {'Copyright © '}
+                          <Link color="inherit" href="https://jocodev.id/">
+                            jocodev.id
+                          </Link>{' '}
+                          {new Date().getFullYear()}
+                          {'.'}
+                        </Typography>
                     </Box>
                 </Box>
             </Grid>
