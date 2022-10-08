@@ -20,7 +20,7 @@ Semua file yang dibutuhkan untuk di-unggah ke server ada di folder build
 
 Video tutorial-nya bisa dilihat di [youtube](https://youtu.be/eFNW4aa5emk). Jika ada yang ingin ditanyakan silakan tinggalkan di kolom komentar pada video nya.
 
-## Module
+## Modul
 
 ### mui.com
 https://mui.com/material-ui/getting-started/installation/
