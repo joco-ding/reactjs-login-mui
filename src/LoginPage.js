@@ -47,10 +47,10 @@ export default function LoginPage() {
                         <Avatar sx={{ bgcolor: 'secondary.main', mt: 2, mr: 2 }}>
                             <CodeOutlined />
                         </Avatar>
-                        <Typography inline component="span" variant="h2" color='primary' fontWeight='bold'>
+                        <Typography component="span" variant="h2" color='primary' fontWeight='bold'>
                             Joco
                         </Typography>
-                        <Typography inline component="span" variant="h2" color='secondary' fontWeight='bold'>
+                        <Typography component="span" variant="h2" color='secondary' fontWeight='bold'>
                             Dev
                         </Typography>
                     </Box>
